@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-title{
+    padding-top: 174px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 79px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.para{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+text-align: center;
+color: #707070;
+}
+.section-title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+    color: #121212;
+}
+.button{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 16px 20.5px;
+    background: #FF5959;
+    border-radius: 5px;
+    border-color: #FF5959;
+}
+/* ======= common css ends ======== */
+header{
+    background: url(../images/banner.jpg) no-repeat center / cover;
+    padding: 175px 307px;
+    text-align: center;
+}
+header .para{
+    margin:20px 40px 30px;
+    color: #FFFFFF;
+}
+/* ======= header css ends ======== */
+/* ======= main css start ======== */
+
+
+#donate_today{
+    margin: 130px 237px;
+}
+#donate_today .para{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#donate_today .total-item{
+    display: flex;
+    gap: 10px;
+}
+
+#donate_today .item{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+padding: 44px 24px;
+text-align: center;
+color: #707070;
+background: #FAFAFA;
+border: 2px solid transparent;
+border-radius: 5px;
+transition: all linear 0.3s;
+}
+#donate_today .item:hover{
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    color: #FF5959;
+}
+#donate_today h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #B3B3B3;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+#donate_today hr{
+    border: 1px solid #DADADA;
+}
+/* donate today ends */
+/* donate plan start */
+#donate_plan{
+    margin: 0 157px 130px;
+}
+#donate_plan .para{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+#donate_plan .plan{
+    display: flex;
+    gap: 25px;
+}
+#donate_plan .plan .plan-section{
+    padding: 63px 22px 54px;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+}
+#donate_plan .plan .item2{
+    background: rgba(255, 89, 89, 0.1);
+}
+#donate_plan .plan .item3{
+    background-color: bisque;
+}
+#donate_plan .plan .section-title{
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 16px;
+    margin-top: 31.5px;
+}
+#donate_plan .plan .para{
+    font-size: 16px;
+    text-align: left;
+}
+/* live donate */
+#donate_plan .live-donation{
+    margin-top: 133px;
+    display: flex;
+    gap: 83px;
+    align-items: center;
+    
+}
+#donate_plan .live-donation .section-title{
+    text-align: left;
+}
+#donate_plan .live-donation .para{
+    text-align: left;
+    margin: 20px 0px;
+}
+#donate_plan .live-donation .button{
+    margin-top: 10px;
+}
+#donate_plan .live-donation img{
+    width: 456px;
+    height: 477px;
+}
+
+/* donate plan end */
+/* update */
+#update{
+    margin: 0 315px 130px;
+}
+#update .subscribe{
+    padding: 88px 190px;
+    background: #FFF4D6;
+    
+}
+#update .para{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#update input{
+    width: 60%;
+    display: inline-block;
+    padding: 14px 17px;
+    background: #D9D9D9;
+    outline: none;
+    resize: none;
+    border: none;
+}
+#update button{
+    display: inline-block;
+    padding: 13px 17px;
+    background: #FF5959;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+#update form input::placeholder{
+    color: #AA9F9F;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/* ======= main css ends ======== */
+footer{
+    background: #0B0D17;
+}
+footer h1{
+font-family: 'Lobster';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+text-align: center;
+letter-spacing: 0.5px;
+color: #FF5959;
+padding-top: 43px;
+}
+footer h2{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #D9DBE1;
+    padding-top: 24px;
+    padding-bottom: 42px;
+    text-align: center;
+}
